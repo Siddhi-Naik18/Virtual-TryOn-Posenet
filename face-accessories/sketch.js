@@ -19,7 +19,7 @@ currentEarring = 0;
 function preload() {
     bodyPose = ml5.bodyPose("BlazePose", {flipped:true});
     specs = loadImage("images/" + glassesOptions[currentGlasses]);
-    earring = loadImage("images/" + earringOptions[currentGlasses]);
+    earring = loadImage("images/" + earringOptions[currentEarring]);
 }
 
 function setup() {
